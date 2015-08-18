@@ -21,3 +21,9 @@
 
 en:
   hello: "Hello world"
+  views:
+    pagination:
+      first: "&lsaquo;&lsaquo;"
+      previous: "&lsaquo;"
+      next: "&rsaquo;"
+      last: "&rsaquo;&rsaquo;"

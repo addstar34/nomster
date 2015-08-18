@@ -33,3 +33,20 @@ body {
   font-family: 'capture_itregular', sans-serif;
   font-size: 28px;
 }
+
+.pagination-div {
+  text-align: center;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.pagination .active a {
+  background-color: black;
+  border-color: black;
+  color: red;
+  font-weight: bold;
+}
+
+.pagination .active:hover a:hover {
+  background-color: black;
+}
