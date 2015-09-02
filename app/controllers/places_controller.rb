@@ -2,7 +2,7 @@ class PlacesController < ApplicationController
   before_action :authenticate_user!, :only => [:new, :create, :edit, :update, :destroy]
 
   def index
-	  @places = Place.all.order("created_at ASC").page(params[:page]).per(13)
+	  @places = Place.all.order("created_at ASC").page(params[:page]).per(3)
   end
 
   def new
