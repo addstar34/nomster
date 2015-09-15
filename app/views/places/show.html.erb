@@ -42,7 +42,7 @@
 	      </div>
 	      <div class="modal-body">
 	      <%= simple_form_for @comment, :url => place_comments_path(@place) do |f| %>
-					<%= f.input :message, input_html: { style: 'resize:vertical'} %>
+					<%= f.input :message, input_html: { class: 'textarea-fixedwidth'} %>
 					<%= f.input :rating, :as => :select, :collection => Comment::RATINGS %>		
 	      </div>
 	      <div class="modal-footer">
