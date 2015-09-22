@@ -20,3 +20,6 @@
 
 # Ignore public uploads
 /public/uploads
+
+# Ignore .idea folder (from RubyMine?)
+/.idea
