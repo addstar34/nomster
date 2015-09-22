@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails nomster: development" uuid="6d0543b9-6d5f-4346-b880-884f77537980">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails nomster: test" uuid="d696f718-19d1-46fb-8614-0c1debf4561e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails nomster: production" uuid="a717ea31-87a2-4ac9-968a-8ac255106234">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
