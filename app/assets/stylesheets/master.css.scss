@@ -97,8 +97,13 @@ blockquote p {
   display: inline;
 }
 
+.carousel-inner {
+  max-height: 500px;
+}
+
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    height: 500px;
+    /*height: 500px;*/
     width: 100%;
 }
 

@@ -3,6 +3,7 @@ class Comment < ActiveRecord::Base
   belongs_to :place
   after_create :send_comment_email
 
+  # this RATINGS thing is a dictonary aka hash table
   RATINGS = {
   	'one star'    => '1_star',
   	'two stars'   => '2_stars',
